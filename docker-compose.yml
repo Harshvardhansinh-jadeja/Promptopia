@@ -10,12 +10,6 @@ services:
       - "3000:3000"
     env_file:
       - .env
-    # environment:
-    #   - GOOGLE_ID=543907674546-cu00fbirsmjptco3o575kthchig4ohgl.apps.googleusercontent.com
-    #   - GOOGLE_CLIENT_SECRET=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i
-    #   - MONGODB_URI=mongodb+srv://harshvardhan:asdfghjkl@shareprompt.ghftwlr.mongodb.net/
-    #   - NEXTAUTH_SECRET=YpAEbfFfoYyOwAfFpEvWxrUM1JOe/PcyjCPOuoiMTNk=
-    #   - NEXTAUTH_URL=http://localhost:3000
 
   mongo:
     image: mongo
